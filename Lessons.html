@@ -33,6 +33,7 @@
 							<li><a href="Portfolio.html">Data Science Portfolio</a></li>
 							<li><a href="landing.html">Projects</a></li>
 							<li><a href="Lessons.html">Lessons Learnt</a></li>
+							<li><a href="Experience.html">Experience</a></li>
 							<li><a href="aboutme.html">About me</a></li>
 						</ul>
 						<ul class="actions stacked">
@@ -51,8 +52,7 @@
 								<h1>Lessons Learnt</h1>
 							</header>
 							<div class="content">
-								<p>Follow this link where you will find projects that did not produce the expected results. This is where I learnt valuable lessons on “doing” data science. This is where I tried to understand how various types of models worked or did not work. They are all failures,  but I keep them as a reminder of what went wrong and why. Some projects shown here may sometimes be incomplete as I realised the model was not going to work</p>
-								<p>I also keep templates which are based on sound lessons that I found on the Internet. Most times I adapted the lesson to suit my style, sometimes using a different dataset other times same dataset. I used these examples to learn how to do a particular project correctly and understand the process. These templates are always referenced with the source website.</p>
+								<p>This section showcases projects that did not yield the anticipated results. It is here that I gained invaluable insights into the practical application of data science. Through these endeavours, I sought to understand the functionality and limitations of various models. Although these projects are considered failures, I retain them as a reminder of the errors made and the lessons learned. Some projects may be incomplete, as I recognized early on that the models were not viable.</p>
 							</div>
 						</div>
 					</section>
@@ -66,59 +66,70 @@
 									<header class="major">
 										<h2>Poisson NB2 Bike NYC - BOTH</h2>
 									</header>
-									<p>Poisson regression model for regressing the bicyclist counts observed on the Brooklyn bridge between 01 April 2017 and 31 October 2017.</p>
-									<p>The project commences with the Poisson regression model, utilizing it as the "control" for the Negative Binomial regression model in the second part of the project. Cameron and Trivedi (2013) recommend the best practice of estimating both Poisson and Negative Binomial regression models.</p>
+									<p>Poisson regression model for regressing the bicyclist counts observed on the Brooklyn bridge between 01 April 2017 and 31 October 2017.<br>
+									The project commences with the Poisson regression model, utilizing it as the "control" for the Negative Binomial regression model in the second part of the project. Cameron and Trivedi (2013) recommend the best practice of estimating both Poisson and Negative Binomial regression models.</p>
+									<ul class="actions">
+										<li><a href="https://github.com/andrewcollodel/Lessons-learnt/blob/main/01_Failure_Poission_NB2_Bike_NYC%20-%20BOTH.ipynb" class="button">Learn more</a></li>
+									</ul>
 								</div>
 							</section>
 
 						<!-- Two -->
 							<section id="two" class="spotlights">
 								<section>
-									<a href="generic.html" class="image">
-										<img src="images/pic08.jpg" alt="" data-position="center center" />
+									<a href="https://github.com/andrewcollodel/Lessons-learnt/blob/main/02_Failure_StartUp_Success_Unbalanced_Failure.ipynb" class="image">
+										<img src="images/Engineer.jpg" alt="" data-position="center center" />
 									</a>
 									<div class="content">
 										<div class="inner">
 											<header class="major">
 												<h3>Startup Success - Unbalanced response variable (Failed project)</h3>
 											</header>
-											<p>The objective of this project is to predict the success of a new startup business. The predictors include 'Total_Funding', 'funding_rounds', 'months_2_first_fund', and 'Unfunded'. The response variable is binary, indicating either Success or Failure.</p>
-											<p>The initial attempt at this project was unsuccessful due to the oversight of the imbalance in the Success/Failure ratio within the response variable. I intend to revisit and complete the project, addressing this issue by following the correct methodology.</p>
-											<p>The Success response variable is imbalanced, with 90% indicating success and 10% indicating failure. It is crucial to maintain this imbalance as it provides the model with essential information regarding the likelihood of a startup succeeding or failing but the response variable must be correctly weighted something I neglected to do.</p>
+											<p>The objective of this project is to predict the success of a new startup business. The predictors include 'Total_Funding', 'funding_rounds', 'months_2_first_fund', and 'Unfunded'. The response variable is binary, indicating either Success or Failure.<br>
+											The initial attempt at this project was unsuccessful due to the oversight of the imbalance in the Success/Failure ratio within the response variable. I intend to revisit and complete the project, addressing this issue by following the correct methodology.<br>
+											The Success response variable is imbalanced, with 90% indicating success and 10% indicating failure. It is crucial to maintain this imbalance as it provides the model with essential information regarding the likelihood of a startup succeeding or failing but the response variable must be correctly weighted something I neglected to do.</p>
 											<ul class="actions">
-												<li><a href="generic.html" class="button">Learn more</a></li>
+												<li><a href="https://github.com/andrewcollodel/Lessons-learnt/blob/main/02_Failure_StartUp_Success_Unbalanced_Failure.ipynb" class="button">Learn more</a></li>
 											</ul>
 										</div>
 									</div>
 								</section>
 								<section>
-									<a href="generic.html" class="image">
-										<img src="images/pic09.jpg" alt="" data-position="top center" />
+									<a href="https://github.com/andrewcollodel/Lessons-learnt/blob/main/03_Failure_Vehicle_Linear_Regression_Failed.ipynb" class="image">
+										<img src="images/Exhaust.jpg" alt="" data-position="top center" />
 									</a>
 									<div class="content">
 										<div class="inner">
 											<header class="major">
 												<h3>Vehicle Linear Regression - failed attempt</h3>
 											</header>
-											<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
+											<p>The mean absolute error implies that the predictions for this model to have an average variance of between +-23.7 in co2 emissions and a model test score of 90%.<br>
+											HOWEVER despite the good indicators this model is fundamentally flawed.<br>
+											At the extremes this linear model does not work because that there is NOT a liner relationship between fuel consumption measured in miles per gallon and Co2 emissions.</p>										
 											<ul class="actions">
-												<li><a href="generic.html" class="button">Learn more</a></li>
+												<li><a href="https://github.com/andrewcollodel/Lessons-learnt/blob/main/03_Failure_Vehicle_Linear_Regression_Failed.ipynb" class="button">Learn more</a></li>
 											</ul>
 										</div>
 									</div>
 								</section>
 								<section>
-									<a href="generic.html" class="image">
-										<img src="images/pic10.jpg" alt="" data-position="25% 25%" />
+									<a href="https://github.com/andrewcollodel/Lessons-learnt/blob/main/04_Failure_Vehicle_Polynomial_Regression_Attempt_2_Improved.ipynb" class="image">
+										<img src="images/Car.jpg" alt="" data-position="25% 25%" />
 									</a>
 									<div class="content">
 										<div class="inner">
 											<header class="major">
 												<h3>Vehicle Polynomial Regression Attempt 2 Improved</h3>
 											</header>
-											<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
+											<p>Result Test1: Medium 14 mpg city - predicts 562.75 under reporting by 1.33%<br>
+												Result Test 2: High 40 mpg city - predicts 193.64 under reporting by 11.55%<br>
+												Result Test 3: Low 7 mpg city - predicts 1006.78 under reporting by 8.95%<br>
+												Statistical tests<br>
+												Mean squared error: 618.79<br>
+												R-squared: 0.96 (96%)<br>
+												The model has improved but may lack sufficient predictor variables.</p>
 											<ul class="actions">
-												<li><a href="generic.html" class="button">Learn more</a></li>
+												<li><a href="https://github.com/andrewcollodel/Lessons-learnt/blob/main/04_Failure_Vehicle_Polynomial_Regression_Attempt_2_Improved.ipynb" class="button">Learn more</a></li>
 											</ul>
 										</div>
 									</div>
@@ -131,23 +142,27 @@
 									<header class="major">
 										<h2>k-means clustering (Template)</h2>
 									</header>
-									<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus.</p>
+									<p>Cluster 0: older (mostly women), earn and spend less than the other clusters.<br>
+										Cluster 1: slightly younger than cluster 0, slightly more men, earn the most and spend the least.<br>
+										Cluster 2: younger but not the youngest,slightly more women who earn well (2nd highest earners) and spend the most.<br>
+										Cluster 3: youngest (more women) who earn the least and are second highest spenders.<br>
+										Cluster 4: oldest (mostly women), who are in the middle in terms of earning and spending habits.</p>
 									<ul class="actions">
-										<li><a href="generic.html" class="button next">Get Started</a></li>
+										<li><a href="https://github.com/andrewcollodel/Lessons-learnt/blob/main/Template_01_k-means%20clustering.ipynb" class="button next">Learn more</a></li>
 									</ul>
 								</div>
 							</section>
-
+			
 					</div>
 
 				<!-- Footer -->
 					<footer id="footer">
 						<div class="inner">
 							<ul class="icons">
-								<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+								<li><a href="https://andrewcollodel.github.io/" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
 							</ul>
 							<ul class="copyright">
-								<li>&copy; Andrew Collodel</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+								<li>&copy; Andrew Collodel</li><li>Template:<a href="https://html5up.net">HTML5 UP</a></li>
 							</ul>
 						</div>
 					</footer>
